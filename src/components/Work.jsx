@@ -12,9 +12,10 @@ function Work() {
     <section className="w-full py-16">
       <h2 className="text-6xl md:text-8xl font-bold font-playwrite mb-12 px-8 md:px-16">Work</h2>
 
-      <div className="h-[600px] relative">
+      
+    <div style={{ height: '600px', position: 'relative' }}>
         <FlowingMenu items={workItems} />
-      </div>
+    </div>
     </section>
   )
 }
